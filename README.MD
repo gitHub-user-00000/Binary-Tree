@@ -5,7 +5,7 @@
 ### what is Node specification.
 in a binary tree at max kisi bhi nodes[1's have 2 and 3 child, 2's have 4 and 5 child , 3's have 6 and 7 child , 4;s have 8 and 9 , 7's have 10 child.] ke two hi ya one , zero children ho sakte hai
 
-ex : hello
+## ex : hello
 
 <img width="442" alt="binary" src="https://user-images.githubusercontent.com/92104840/138590911-68ff0478-5394-4f9c-9dbe-e6f3686a8960.PNG">
 
@@ -18,9 +18,3 @@ so zero level par root nahi hoti , so L = 0 => 2^0 = 1 is maximus node of root. 
    second level par L = 2 => 2^2 = 4 nodes , so level two par maximum number of nodes is 4.
 
    ex:
-
-   
-
-
-so first bode 
-#### 
