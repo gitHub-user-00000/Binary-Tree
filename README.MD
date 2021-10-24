@@ -23,4 +23,6 @@ ex :
    ### Maximum nodes in a tree of hieght H is 2^H - 1
 
    ex :
+   <img width="517" alt="1111111" src="https://user-images.githubusercontent.com/92104840/138592509-e5751d07-6899-4efa-a37b-e773d3210adc.PNG">
+
    
