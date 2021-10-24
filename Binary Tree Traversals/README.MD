@@ -1,6 +1,5 @@
 # Traversals in a binary tree.
 
-## we have 3 types of traversals 
 
 ### tree 
 
@@ -12,6 +11,7 @@
  left subTree =>  | / \   |  | / \   | => right subTree
                   |4   5  |  |6   7  |
 
+## we have 3 types of traversals 
 
 ## 1 : PreOrder
 
@@ -19,6 +19,7 @@
 
 
                           1  => root
+                          
                        /     \
                    _______    _______
                   |  2    |  |  3    |
