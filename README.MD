@@ -1,8 +1,6 @@
-# Binary Tree
+# what is binary tree
 
-## what is binary tree
-
-### what is Node specification.
+## what is Node specification.
 in a binary tree at max kisi bhi nodes[1's have 2 and 3 child, 2's have 4 and 5 child , 3's have 6 and 7 child , 4;s have 8 and 9 , 7's have 10 child.] ke two hi ya one , zero children ho sakte hai
 
 ## ex : hello
@@ -11,10 +9,12 @@ in a binary tree at max kisi bhi nodes[1's have 2 and 3 child, 2's have 4 and 5 
 
 ## properties of Binary Tree
 
-#### Maximum nodes at level L = 2^L (L = level)
+### Maximum nodes at level L = 2^L (L = level)
 
-so zero level par root nahi hoti , so L = 0 => 2^0 = 1 is maximus node of root. so 1 is starting point.
+   so zero level par root nahi hoti , so L = 0 => 2^0 = 1 is maximus node of root. so 1 is starting point.
    first level par L = 1  => 2^1 = 2 nodes , so level one par maximium number of nodes is 2.
    second level par L = 2 => 2^2 = 4 nodes , so level two par maximum number of nodes is 4.
+
+   isme node 0 aur 1 bhi ho sakti hai but i talking about maximum .
 
    ex:
