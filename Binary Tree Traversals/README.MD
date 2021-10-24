@@ -15,7 +15,7 @@
 
 ## 1 : PreOrder
 
-## Root -> Left SubTree ->Right SubTree
+### Root -> Left SubTree ->Right SubTree
 
 
                           1  => root
