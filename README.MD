@@ -18,3 +18,5 @@ in a binary tree at max kisi bhi nodes[1's have 2 and 3 child, 2's have 4 and 5 
    isme node 0 aur 1 bhi ho sakti hai but i talking about maximum .
 
    ex:
+   
+   <img width="614" alt="bb" src="https://user-images.githubusercontent.com/92104840/138592321-7e614cb0-f3fc-4cec-852e-c0327b1771a8.PNG">
