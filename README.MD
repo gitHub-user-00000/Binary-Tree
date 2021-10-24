@@ -10,4 +10,4 @@ ex : hello
 
 ## properties of Binary Tree
 
-### Maximum nodes at level L = 2^L
+#### Maximum nodes at level L = 2^L
