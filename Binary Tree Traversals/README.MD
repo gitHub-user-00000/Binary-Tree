@@ -15,11 +15,10 @@
 
 ## 1 : PreOrder
 
-### Root -> Left SubTree ->Right SubTree
+## Root -> Left SubTree ->Right SubTree
 
 
                           1  => root
-                          
                        /     \
                    _______    _______
                   |  2    |  |  3    |
