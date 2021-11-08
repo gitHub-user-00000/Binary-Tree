@@ -16,32 +16,52 @@ struct Node
 };
 
   void PreOrder(struct Node* root){
-    if(root != NULL){ 
+    if(root != NULL) return; 
 
         cout<<root->data<<" "; 
         PreOrder(root->left);
         PreOrder(root->right);
-
     }
- }
 
  void PostOrder(struct Node* root){
-    if(root != NULL){ 
- 
+    if(root == NULL) return ;
+         
         PostOrder(root->left);
         PostOrder(root->right);
         cout<<root->data<<" ";
-    }
+
+        //it way may be work
+
+      // PostOrder(root->left) = void PostOrder(struct Node* root->left){
+      //if(root->left == NULL) return; , it is not null
+      //PostOrder(root->left->left) = void PostOrder(struct Node*root->left->left)
+      //if(root->left->left == NULL) return; , yes it is}
+      //cout<<root->left->left->data<<" "; root->left->left->data = 4
+
+       //PostOrder(root->left->right) = void PostOrder(struct Node* root->left->right){
+      //if(root->left->right == NULL) return; , yes it is
+     //cout<<root->left->right->data<<" " root->left->right->data = 5
+
+     //cout<<root->left->data<<" " , root->left->data = 2
+
+
+           //              1  => root
+           //           /     \
+           //        _______    _______
+           //       |  2    |  |  3    |
+// left subTree =>  | / \   |  | / \   | => right subTree
+               //   |4   5  |  |6   7  |
+
+
  }
 
  void InOrder(struct Node* root){
-    if(root != NULL){ 
- 
+    if(root == NULL) return;
+
         InOrder(root->left);
         cout<<root->data<<" ";
         InOrder(root->right);
 
-    }
  }
 
 
